@@ -1,0 +1,164 @@
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    color: white;
+    display: flex;
+    width: 100%;
+justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+nav {
+    margin-right: 40px;
+    
+}
+
+ nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+
+nav li:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px purple;
+}
+/* Main content block edits */
+.top-banner{
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url("https://cloudinary.hbs.edu/hbsit/image/upload/s--EmT0lNtW--/f_auto,c_fill,h_375,w_750,/v20200101/6978C1C20B650473DD135E5352D37D55.jpg");
+    background-size: cover;
+    position: relative;
+}
+.card-caption {
+    background: yellow;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 1.5vw;
+}
+.main-block {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.title-side{
+    border-right: 5px solid black;
+    font-size: 38px;
+    color: white;
+    flex-basis: 50px;
+    text-align: left;
+    padding-right: 15px;
+    min-width: 150px;
+   
+}
+.content-side {
+    display: flex;
+    flex-wrap: wrap;
+     padding: 30px;
+    
+}
+
+#about-me{
+font-size: 150%;
+}
+#weatherpic{
+    height: 500px; 
+    width: 625px; 
+    object-fit: contain;
+    size: cover;
+    
+}
+
+.pic-card {
+  
+    position:relative;
+    width: 50%;
+    min-width: 40px;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid var(--light-blue);
+    box-sizing: border-box;
+    cursor: pointer;
+    user-select: none;
+
+}
+#weatherpicture{
+    background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRehE_UsqXFmaMkk4HrpGyBuLQivQhF5z2yyA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+                  
+}
+
+.pic-card .label {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-
+out;
+}
+
+.pic-card:hover, 
+.pic-card:hover .label {
+   box-shadow: inset 0px 0px 8px
+rgba(232,102,236,1), 0 0 15px
+rbga(232,102,236,1);
+}
+
+#first-pic {
+    width: 100%;
+    height: 20vw;
+}
+
+.pic-card img {
+    border-style: solid black;
+    border-width: 10px;
+    width: 100%;
+}
+
+.pic-card:hover img {
+    opacity: 1;
+}
+
+.label {
+    background-color: cornflowerblue;
+    color: black;
+    position: absolute;
+z-index: 5;
+bottom: 0;
+font-size: 100%;
+}
+
+.pic-card h3{
+font-size: 150%;
+
+}
+
+
+
+
+#contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
